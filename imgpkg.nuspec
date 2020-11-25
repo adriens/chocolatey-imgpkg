@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>imgpkg</id>
+    <title>Carvel imgpkg</title>
+    <version>0.2.0</version>
+    <authors>Carvel</authors>
+    <owners>Adrien SALES</owners>
+    <summary>Store application configuration files in Docker/OCI registries.</summary>
+    <description>imgpkg (pronounced: "image package") allows you to store and distribute sets
+    of files (e.g. application configuration) as images in Docker (OCI) registries. Combine
+    your configuration files, and a list of references to images on which they depend into
+    an image that imgpkg calls a Bundle. Original primary use case for this CLI was to store
+    application configuration (i.e. templates) as an image.</description>
+    <projectUrl>https://github.com/vmware-tanzu/carvel-imgpkg</projectUrl>
+    <tags>oci registry k8s kubernetes configuration-management docker carvel vmware tanzu devops</tags>
+    <licenseUrl>https://github.com/vmware-tanzu/carvel-imgpkg/blob/develop/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://avatars3.githubusercontent.com/u/48573588?s=200&amp;v=4</iconUrl>
+    <packageSourceUrl>https://github.com/adriens/chocolatey-imgpkg</packageSourceUrl>
+    <releaseNotes>https://github.com/vmware-tanzu/carvel-imgpkg/releases/tag/v0.2.0</releaseNotes>
+    <docsUrl>https://github.com/vmware-tanzu/carvel-imgpkg/tree/develop/docs</docsUrl>
+    <bugTrackerUrl>https://github.com/vmware-tanzu/carvel-imgpkg/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/vmware-tanzu/carvel-imgpkg/</projectSourceUrl>
+    <mailingListUrl>https://github.com/vmware-tanzu/carvel-imgpkg/issues</mailingListUrl>
+    
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

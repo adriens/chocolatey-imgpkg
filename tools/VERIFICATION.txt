@@ -1,0 +1,14 @@
+﻿
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Binary file <imgpkg> comes from the official release page :
+
+<https://github.com/vmware-tanzu/carvel-imgpkg/releases/tag/v0.2.0>
+
+The only included binary is :
+
+4162afbc306ee8cda19dc25c3187ab761f4f388b64ea60425e1613be40bda304  ./imgpkg-windows-amd64.exe
+
+but renamed from <imgpkg-windows-amd64.exe> to <imgpkg>.

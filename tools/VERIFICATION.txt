@@ -11,4 +11,4 @@ The only included binary is :
 
 4162afbc306ee8cda19dc25c3187ab761f4f388b64ea60425e1613be40bda304  ./imgpkg-windows-amd64.exe
 
-but renamed from <imgpkg-windows-amd64.exe> to <imgpkg>.
+but renamed from <imgpkg-windows-amd64.exe> to <imgpkg.exe>.

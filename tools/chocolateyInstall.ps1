@@ -7,7 +7,7 @@ $packageArgs = @{
   packageName   = 'imgpkg'
   fileType      = 'exe'
   softwareName  = 'k14s-imgpkg*'
-  file          = "$toolsDir\imgpkg"
+  file          = "$toolsDir\imgpkg.exe"
   silentArgs    = "--help"
   validExitCodes= @(0)
 }
@@ -17,7 +17,7 @@ Install-ChocolateyInstallPackage @packageArgs
 $tools = Split-Path $MyInvocation.MyCommand.Definition
 $package = Split-Path $tools
 
-$imgpkg_exe = Join-Path $package '/tools/imgpkg'
+$imgpkg_exe = Join-Path $package '/tools/imgpkg.exe'
 
 Install-BinFile -Name 'imgpkg' -Path $imgpkg_exe
 Update-SessionEnvironment

@@ -20,4 +20,3 @@ $package = Split-Path $tools
 $imgpkg_exe = Join-Path $package '/tools/imgpkg.exe'
 
 Install-BinFile -Name 'imgpkg' -Path $imgpkg_exe
-Update-SessionEnvironment

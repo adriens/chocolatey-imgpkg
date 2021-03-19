@@ -16,7 +16,7 @@
     <tags>oci registry k8s kubernetes configuration-management docker carvel vmware tanzu devops</tags>
     <licenseUrl>https://github.com/vmware-tanzu/carvel-imgpkg/blob/develop/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.githubusercontent.com/adriens/chocolatey-imgpkg/main/img/CarvelLogo.png</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/adriens/chocolatey-kbld/main/img/CarvelLogo.png</iconUrl>
     <packageSourceUrl>https://github.com/adriens/chocolatey-imgpkg</packageSourceUrl>
     <releaseNotes>https://github.com/vmware-tanzu/carvel-imgpkg/releases/tag/v0.4.0</releaseNotes>
     <docsUrl>https://github.com/vmware-tanzu/carvel-imgpkg/tree/develop/docs</docsUrl>

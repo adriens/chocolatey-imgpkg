@@ -5,10 +5,10 @@ in verifying that this package's contents are trustworthy.
 
 Binary file <imgpkg> comes from the official release page :
 
-<https://github.com/vmware-tanzu/carvel-imgpkg/releases/tag/v0.9.0>
+<https://github.com/vmware-tanzu/carvel-imgpkg/releases/tag/v0.10.0>
 
 The only included binary is :
 
-66790ea0d72a2ca11ee748b8c42b89076631ba736407b14dd6d793e8dd701f74  ./imgpkg-windows-amd64.exe
+7728a59fb59fb33cfbc92b8668bcc58df64ed50fbf86b0a786de9c2ded750139  ./imgpkg-windows-amd64.exe
 
 but renamed from <imgpkg-windows-amd64.exe> to <imgpkg.exe>.

@@ -42,5 +42,5 @@ choco install -fdv imgpkg.nuspec
 ## Deploy to central
 
 ```
-choco push imgpkg.0.9.0.nupkg --source https://push.chocolatey.org/ -apikey *******
+choco push imgpkg.0.10.0.nupkg --source https://push.chocolatey.org/ -apikey *******
 ```

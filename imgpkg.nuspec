@@ -3,7 +3,7 @@
   <metadata>
     <id>imgpkg</id>
     <title>Carvel imgpkg</title>
-    <version>0.10.0</version>
+    <version>0.11.0</version>
     <authors>Carvel</authors>
     <owners>Adrien SALES</owners>
     <summary>Store application configuration files in Docker/OCI registries.</summary>
@@ -18,7 +18,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.statically.io/gh/adriens/chocolatey-kbld/main/img/CarvelLogo.png</iconUrl>
     <packageSourceUrl>https://github.com/adriens/chocolatey-imgpkg</packageSourceUrl>
-    <releaseNotes>https://github.com/vmware-tanzu/carvel-imgpkg/releases/tag/v0.10.0</releaseNotes>
+    <releaseNotes>https://github.com/vmware-tanzu/carvel-imgpkg/releases/tag/v0.11.0</releaseNotes>
     <docsUrl>https://github.com/vmware-tanzu/carvel-imgpkg/tree/develop/docs</docsUrl>
     <bugTrackerUrl>https://github.com/vmware-tanzu/carvel-imgpkg/issues</bugTrackerUrl>
     <projectSourceUrl>https://github.com/vmware-tanzu/carvel-imgpkg/</projectSourceUrl>

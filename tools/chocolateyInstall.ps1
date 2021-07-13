@@ -1,12 +1,12 @@
 $toolsDir    = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $ErrorActionPreference = 'Stop';
 
-
+Copy-Item "$toolsDir\imgpkg-windows-amd64.exe" -Destination "$toolsDir\imgpkg.exe"
 
 $packageArgs = @{
   packageName   = 'imgpkg'
   fileType      = 'exe'
-  softwareName  = 'k14s-imgpkg*'
+  softwareName  = 'carvel-imgpkg*'
   file          = "$toolsDir\imgpkg.exe"
   silentArgs    = "--help"
   validExitCodes= @(0)

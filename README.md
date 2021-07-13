@@ -23,24 +23,8 @@ To install `kapp` and get an optimal experience on windows, just:
 
 ## Build locally
 
-[Chocolatey package](https://chocolatey.org/packages/imgpkg/) to install [Carvel/imgpkg](https://github.com/vmware-tanzu/carvel-imgpkg/issues) (currenlty [under moderation process](https://github.com/adriens/chocolatey-imgpkg/issues/1))
-
 ```
-git clone https://github.com/adriens/chocolatey-imgpkg.git
-cd chocolatey-imgpkg
-choco uninstall imgpkg
-choco install -fdv imgpkg.nuspec
-```
-
-:ballot_box_with_check: TODO section
-
-[Not yet implemented CI](https://github.com/adriens/chocolatey-imgpkg/issues/2) so:
-
-## Release check list
-
-
-## Deploy to central
-
-```
-choco push imgpkg.0.11.0.nupkg --source https://push.chocolatey.org/ -apikey *******
+git clone https://github.com/adriens/chocolatey-ytt.git
+cd chocolatey-ytt
+ant make
 ```

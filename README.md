@@ -1,3 +1,4 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/nu421d7ga3rripba?svg=true)](https://ci.appveyor.com/project/adriens/chocolatey-imgpkg)
 [![Chocolatey](https://img.shields.io/chocolatey/v/imgpkg.svg)](https://chocolatey.org/packages/imgpkg)
 [![Chocolatey](https://img.shields.io/chocolatey/dt/imgpkg.svg)](https://chocolatey.org/packages/imgpkg)
 

@@ -1,2 +1,2 @@
-﻿choco apikey --key $env:CHOCO_APIKEY --source https://push.chocolatey.org/
+﻿choco apikey --key $env:CHOCO_APIKEY --source https://push.chocolatey.org/ `
 choco push imgpkg.@IMGPKG_VERSION@.nupkg --source https://push.chocolatey.org/
